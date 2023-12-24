@@ -1,6 +1,8 @@
 #include "list.h"
 #include <iostream>
 
+
+
 DoublyLinkedList::DoublyLinkedList() : head(nullptr), tail(nullptr) {}
 
 DoublyLinkedList::~DoublyLinkedList() {
