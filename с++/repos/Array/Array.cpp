@@ -105,6 +105,7 @@ int get_max_element_of_array(int* array, const size_t capability) {
 	return max_element;
 }
 
+
 int get_min_element_of_array(int* array, const size_t size) {
 	int min_element = array[0];
 	for (size_t i = 0; i < size - 1; i++) {
@@ -113,6 +114,7 @@ int get_min_element_of_array(int* array, const size_t size) {
 	}
 	return min_element;
 }
+  
 
 string to_string_array(int* array, const size_t size) {
 	string out;
