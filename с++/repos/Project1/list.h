@@ -9,11 +9,17 @@ class DoublyLinkedList {
 public:
     DoublyLinkedList();
     ~DoublyLinkedList();
+    // функция добавления элемента
+    void insertNode(int data); 
 
-    void insertNode(int data); // функция добавления элемента
-    void deleteNode(int data); // функция удаления элемента
-    void sortList(); // функция сортировки списка
-    void displayList(); // функция вывода списка
+    // функция удаления элемента
+    void deleteNode(int data);
+
+    // функция сортировки списка
+    void sortList(); 
+
+    // функция вывода списка
+    void displayList();
 
 private:
     Node* head;

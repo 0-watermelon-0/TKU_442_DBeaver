@@ -96,23 +96,24 @@ void DoublyLinkedList::displayList() {
         std::cout << current->data << " ";
         current = current->next;
     }
-    std::cout << std::endl << " ";
+    std::cout << std::endl;
 }
 
 int main() {
     DoublyLinkedList list;
-    list.insertNode(53); // пример вызова функции добавления элемента
+    // пример вызова функции добавления элемента
+    list.insertNode(53); 
     list.insertNode(23);
     list.insertNode(62);
     list.insertNode(17);
     list.insertNode(36);
-
-    list.displayList(); // пример вызова функции вывода списка
-
-    list.sortList(); // пример вызова функции сортировки списка
+    // пример вызова функции вывода списка
+    list.displayList(); 
+    // пример вызова функции сортировки списка
+    list.sortList(); 
     list.displayList();
-
-    list.deleteNode(62); // пример вызова функции удаления элемента
+    // пример вызова функции удаления элемента
+    list.deleteNode(62); 
     list.displayList();
 
     return 0;
