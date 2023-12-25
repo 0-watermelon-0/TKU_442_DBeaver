@@ -1,8 +1,6 @@
 #include "list.h"
 #include <iostream>
 
-
-
 DoublyLinkedList::DoublyLinkedList() : head(nullptr), tail(nullptr) {}
 
 DoublyLinkedList::~DoublyLinkedList() {
@@ -98,7 +96,7 @@ void DoublyLinkedList::displayList() {
         std::cout << current->data << " ";
         current = current->next;
     }
-    std::cout << std::endl <<" ";
+    std::cout << std::endl << " ";
 }
 
 int main() {
