@@ -98,7 +98,7 @@ void DoublyLinkedList::displayList() {
         std::cout << current->data << " ";
         current = current->next;
     }
-    std::cout << std::endl;
+    std::cout << std::endl <<" ";
 }
 
 int main() {

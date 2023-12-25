@@ -1,2 +1,3 @@
-﻿  list.cpp
-  Project1.vcxproj -> D:\Program Files (D)\Учёба\Репозитории\GitHub\Study.Tasks.Everything\Учёба\с++\repos\Project1\x64\Debug\Project1.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Project1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  list.cpp
+  Project1.vcxproj -> D:\ПшеницынПЕ\GitHub\Pshenitsyn_PE_TKI_422\с++\repos\Project1\x64\Debug\doubl_list.exe
