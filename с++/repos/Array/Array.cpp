@@ -45,7 +45,7 @@ string to_string_array(int* array, const size_t size);
 */
 int main() {
 	int size;
-
+	setlocale(LC_ALL, "Russian");
 	cout << "Input array size ";
 	cin >> size;
 
@@ -58,7 +58,7 @@ int main() {
 
 	example_array = input_array(size);
 
-	cout << to_string_array(example_array, size) << "\n";
+	cout << to_string_array(example_array, size) << "  \n";
 
 	cout << "Max element: " << get_max_element_of_array(example_array, size) << "\n";
 

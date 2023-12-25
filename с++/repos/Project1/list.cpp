@@ -101,15 +101,15 @@ void DoublyLinkedList::displayList() {
 
 int main() {
     DoublyLinkedList list;
-    list.insertNode(53); // пример вызова функции добавления элемента
+    list.insertNode(53); 
     list.insertNode(23);
     list.insertNode(62);
     list.insertNode(17);
     list.insertNode(36);
 
-    list.displayList(); // пример вызова функции вывода списка
+    list.displayList(); 
 
-    list.sortList(); // пример вызова функции сортировки списка
+    list.sortList(); 
     list.displayList();
 
     list.deleteNode(62); // пример вызова функции удаления элемента
