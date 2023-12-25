@@ -40,9 +40,7 @@ int get_min_element_of_array(int* array, const size_t size);
 */
 string to_string_array(int* array, const size_t size);
 
-/**
- * @brief for see output of sorting, find max, min elements of array and custom func for output array.
-*/
+
 int main() {
 	int size;
 
