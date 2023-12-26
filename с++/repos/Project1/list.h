@@ -1,7 +1,4 @@
 
-#ifndef LIST_H
-#define LIST_H
-
 struct Node {
     int data;
     Node* prev;
@@ -12,15 +9,21 @@ class DoublyLinkedList {
 public:
     DoublyLinkedList();
     ~DoublyLinkedList();
+    // add element function  (добавления элемента)
+    void insertNode(int data); 
 
-    void insertNode(int data); // функция добавления элемента
-    void deleteNode(int data); // функция удаления элемента
-    void sortList(); // функция сортировки списка
-    void displayList(); // функция вывода списка
+    // element removal function  (удаления элемента)
+    void deleteNode(int data);
+
+    // list sort function (сортировки списка)
+    void sortList(); 
+
+    // list function (вывода списка)
+    void displayList();
 
 private:
     Node* head;
     Node* tail;
 };
 
-#endif
+

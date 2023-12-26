@@ -1,12 +1,10 @@
 #include "list.h"
 #include <iostream>
 
-
-
 DoublyLinkedList::DoublyLinkedList() : head(nullptr), tail(nullptr) {}
 
 DoublyLinkedList::~DoublyLinkedList() {
-    // реализация деструктора
+    // destructor implementation (реализация деструктора)
     Node* current = head;
     while (current != nullptr) {
         Node* next = current->next;
@@ -18,7 +16,7 @@ DoublyLinkedList::~DoublyLinkedList() {
 }
 
 void DoublyLinkedList::insertNode(int data) {
-    // реализация функции добавления элемента
+    // implementation of the add element function (добавления элемента)
     Node* newNode = new Node;
     newNode->data = data;
     newNode->next = nullptr;
@@ -36,7 +34,7 @@ void DoublyLinkedList::insertNode(int data) {
 }
 
 void DoublyLinkedList::deleteNode(int data) {
-    // реализация функции удаления элемента
+    // implementation of the element removal function (удаления элемента)
     Node* current = head;
     while (current != nullptr) {
         if (current->data == data) {
@@ -65,12 +63,12 @@ void DoublyLinkedList::deleteNode(int data) {
 }
 
 void DoublyLinkedList::sortList() {
-    // реализация функции сортировки списка
+    // implementing a list sorting function (сортировки списка)
     bool swapped;
     Node* ptr1;
     Node* lptr = nullptr;
 
-    // Проверяем, пуст ли список
+    // Checking if the list is empty (пуст ли список)
     if (head == nullptr)
         return;
 
@@ -92,7 +90,7 @@ void DoublyLinkedList::sortList() {
 }
 
 void DoublyLinkedList::displayList() {
-    // реализация функции вывода списка
+    // implementation of list function (вывода списка)
     Node* current = head;
     while (current != nullptr) {
         std::cout << current->data << " ";
@@ -103,18 +101,18 @@ void DoublyLinkedList::displayList() {
 
 int main() {
     DoublyLinkedList list;
-    list.insertNode(53); // пример вызова функции добавления элемента
+    list.insertNode(53); 
     list.insertNode(23);
     list.insertNode(62);
     list.insertNode(17);
     list.insertNode(36);
-
-    list.displayList(); // пример вызова функции вывода списка
-
-    list.sortList(); // пример вызова функции сортировки списка
+    // list output (вывода списка)
+    list.displayList(); 
+    // sort the list (сортировки списка)
+    list.sortList(); 
     list.displayList();
-
-    list.deleteNode(62); // пример вызова функции удаления элемента
+    // deleting an element (удаления элемента)
+    list.deleteNode(62); 
     list.displayList();
 
     return 0;
