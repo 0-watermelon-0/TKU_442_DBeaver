@@ -1,2 +1,0 @@
-D:\Program Files (D)\Учёба\Репозитории\GitHub\Study.Tasks.Everything\Учёба\с++\repos\Project1\x64\Debug\Project1.exe
-D:\ПшеницынПЕ\GitHub\Pshenitsyn_PE_TKI_422\с++\repos\Project1\x64\Debug\doubl_list.exe
