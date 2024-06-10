@@ -1,3 +1,6 @@
+--5	Показать товары, цена которых больше средней цены товара того же цвета
+-- (цвет определен) (Таблица Production.Product). Показать поля Name, 
+--ListPrice и Color
 SELECT "Name", "ListPrice", "Color"
 FROM "Production"."Product"
 WHERE "ListPrice" > (
