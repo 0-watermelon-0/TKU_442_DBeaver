@@ -1,3 +1,6 @@
+--Показать список продуктов (поле Name), в котором указано, 
+--есть ли у продукта количество списаний или нет, из таблиц Production.Product,
+-- Production.WorkOrder, используя LEFT OUTER JOIN
 SELECT 
     P."Name",
     COALESCE(WO."QtyScrapped", 0) AS "ScrapCount"

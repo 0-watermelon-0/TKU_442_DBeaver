@@ -1,3 +1,6 @@
+--Показать список людей (поля FirstName, LastName), в котором отражается
+--, указан у человека пол или нет, из таблиц HumanResources.Employee,
+-- Person.Person, используя RIGHT OUTER JOIN
 SELECT 
     P."FirstName",
     P."LastName",

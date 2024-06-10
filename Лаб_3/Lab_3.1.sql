@@ -1,3 +1,5 @@
+--Показать hash пароля пользователей (PasswordHash) и поля FirstName, 
+--LastName из таблиц Person.Password, Person.Person
 SELECT 
     P."PasswordHash",
     P2."FirstName",

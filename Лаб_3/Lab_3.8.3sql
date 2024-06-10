@@ -1,3 +1,5 @@
+--Показать список BusinessEntityID, которые содержатся и в таблице Person.Person, 
+-- и в 	таблице HumanResources.Employee Пропустить 15 строк из 3.8.2
 SELECT "BusinessEntityID"
 FROM "Person"."Person"
 INTERSECT
